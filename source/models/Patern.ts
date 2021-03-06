@@ -1,7 +1,10 @@
-import mongoose, { Schema } from 'mongoose';
-import { IPatern } from '../interfaces/patern';
+//@ts-nocheck
+// import mongoose, { Schema } from 'mongoose';
+// import { IPatern } from '../interfaces/patern';
+const mongoose = require('mongoose');
+const { IPatern } = require('../interfaces/patern');
 
-const PaternSchema: Schema = new Schema({
+const PaternSchema = new mongoose.Schema({
     input: {
         type: String,
         required: true

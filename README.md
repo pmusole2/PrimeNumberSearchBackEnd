@@ -14,4 +14,6 @@
 
 6. You can then go and start the front end.
 
+7. To unit test this app run the command "npm run test"
+
 # FRONT END REPO - https://github.com/pmusole2/PrimeNumberSearchFront.git
